@@ -25,6 +25,3 @@ def create_character(name, strength, intelligence, charisma):
     return name + "\n"+"STR "+ full_dot*strength + (10-strength)*empty_dot +"\n" + "INT "+full_dot*intelligence + (10-intelligence)*empty_dot+ "\n"+"CHA " + full_dot*charisma + (10-charisma)*empty_dot
 
 print(create_character('ren', 4, 2, 1))
-
-
-

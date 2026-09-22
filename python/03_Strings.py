@@ -76,6 +76,8 @@ print(s)
 m = mystr.replace('   ', ' yuyu')
 print(m)
 
+#Count a word
+print(my_str.count("o"))
 #splitting a word
 my_str = 'hello world'
 
